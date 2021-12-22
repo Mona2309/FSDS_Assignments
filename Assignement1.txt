@@ -1,0 +1,108 @@
+1. Boolean data type is True and False
+>>> a = True
+>>> type(a)
+<class 'bool'>
+
+>>> b = False
+>>> type(b)
+<class 'bool'>
+
+
+2. ANd , OR and Not are the three types of boolean oprators
+
+3.x, y= 0,1
+>>x
+0
+>>y
+1
+>>x*y
+0
+>>x*x
+0
+>>x+y
+>>x,y=1,0
+x*y
+0
+x+y
+1
+
+x  y  x or y
+F  F   F
+F  T   T
+T  F   T
+T  T   T
+
+x  y  x and y
+F  F  F
+F  T  F
+T  F  F
+T  T  T
+
+5.<, >, <=,>=,=,==
+
+6.= It is used for assigning the value to a variable.
+  == It is used for comparing two values. It returns 1 if both the values are equal otherwise returns 0.
+
+a=5( variable a will hold the value=5)
+b=6
+if a==b
+then print("equal")
+else print("notequal")
+
+so it will check if the value of b is 5 or not and will print acc
+
+7. one -spam=0
+if spam==10: print('eggs')
+ 
+two- spam=0
+if spam==10: print('eggs')
+ 
+three- print('spam')
+print('spam') 
+
+8.spam =  int(input("Enter a number: "))
+if (spam == 1):
+    print('Hello')
+elif (spam == 2):
+     print('howdy')
+else :
+    print('Greetings!!')
+
+9. ctrl+c
+10.Break :It eliminates the execution of remaining iteration of loop
+ Continue:It will terminate only the current iteration of loop.
+
+11. When user call range() with one argument, user will get a series of numbers that starts at 0
+for i in range(10):
+    print(i, end=" ")
+print()
+o/p- 0 1 2 3 4 5 6 7 8 9 
+
+range(0, 10) range(start,stop)- When user call range() with two arguments, user get to decide not only where the series of numbers stops but also where it starts, 
+so user don’t have to start at 0 all the time. 
+for i in range(0,10):
+    print(i, end=" ")
+print()
+o/p- 0 1 2 3 4 5 6 7 8 9 10
+
+using range for iteration
+range(0, 10, 1)(range(start,stop, step) When the user call range() with three arguments, the user can choose not only where the series of numbers will start and stop but also
+how big the difference will be between one number and the next. If the user doesn’t provide a step, then range() will automatically behave as if the step is 1. 
+
+for i in range(0,10,2):
+    print(i, end=" ")
+print()
+
+0/p 0 2 4 6 8 
+
+12. for i in range(1, 11):
+    print(i)
+
+i = 1
+while i <= 10:
+	print(i)
+	i += 1
+
+
+
+
