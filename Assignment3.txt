@@ -1,0 +1,63 @@
+1. Why are functions advantageous to have in your programs?
+Functions are the way to write a piece of useful software code and use it in multiple places, 
+so it doesn’t need to be repeated.Functions enables reuse of code, improve maintainability and scalability.
+
+2. When does the code in a function run: when it's specified or when it's called?
+when its called the function will run the code mentioned inside it.
+
+3. What statement creates a function?
+A function in Python is a logical unit of code containing a sequence of statements indented under a name 
+given using the “def” keyword.
+example
+def test1():
+
+4.What is the difference between a function and a function call?
+Function is when you create a block of code which we want to create to perform a specific operations and when we call
+that function in some other code to perfom that operation its called function call
+
+example:-
+def test2():
+    return ("this is my first function")--- defining a function
+    
+test4()--- function call
+
+5.One global scope per program execution and whenever we call a function we create a local scope
+
+6. Example-
+Def square(x):
+y = x * x
+return y
+z = square(10)
+print(y)
+The variable y only exists while the function is being executed — we call this its lifetime. 
+When the execution of the function terminates (returns), the local variables are destroyed.
+
+7. A Return is a value that a function returns to the calling script or function when it completes its task. 
+Yes , its possible to have a return value in an expression.
+
+8.If there is no return statement in the function code, the function ends when the control flow reaches the end of the function body and the 
+value None will be returned.
+
+9.If we want to refer to a global variable in a function, we can use the global keyword to declare which variables are global.
+And if we don't have to use it in all cases- if the name referenced in an expression cannot be found in local 
+scope or scopes in the functions in which this function is defined, it is looked up among global variables.
+
+10. None means Null value.It is a data type of the class NoneType object.
+Assigning a value of None to a variable is one way to reset it to its original, empty state.
+
+11.This isn't a real Python module.
+
+12. from spam import bacon   
+    bacon()
+or we can also use spam.bacon()
+13.Error handling can be used to notify the user of why the error occurred and gracefully exit the process that caused the error
+without crashing the programme
+
+14.The try block allows to test a block of code for errors where as except block enables to handle the error with a user-defined response.
+
+like 
+try
+pieceofcode...
+except
+pieceofcode...
+
