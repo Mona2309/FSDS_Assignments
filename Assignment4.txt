@@ -1,0 +1,127 @@
+1.[] is a used when we need to define a list
+
+2.
+spam = [ 1, 2, 3, 4, 5, 6 ]
+element = 'hello'
+beforeElement = 4
+index = spam.index(beforeElement)
+spam.insert(index, element) 
+print(spam)
+
+o/p- [1, 2, 3, 'hello', 4, 5, 6]
+
+3.['a', 'b', 'c', 'd']
+spam[int(int('3' * 2) / 11)]?
+[1, 2, 3, 'hello', 4, 5, 6]
+
+4.spam[-1] this will give first value from start of right side which is d.
+
+5.spam[:2] this will give second value from start of  right side which is c
+
+6.bacon= [3.14, 'cat,' 11, 'cat,' True] 
+bacon.index('cat')
+1
+
+7.[3.14, 'cat', 11, 'cat', True, 99]
+
+8.[3.14, 11, 'cat', True, 99]
+
+9.List concantenation operators-
+
+concatenation operator--The addition operator + is also known as a concatenation operator when applied on two python strings.
+replication operators--The multiplication operator acts as a replication operator when we have one string and one integer as operands.
+
+Example-
+fruit = ["apple", "orange", "banana", "cherry"]
+print([1, 2] + [3, 4])
+print(fruit + [6, 7, 8, 9])
+
+output- [1, 2, 3, 4]
+['apple', 'orange', 'banana', 'cherry', 6, 7, 8, 9]
+
+where as 
+print([1, 2, ["hello", "goodbye"]] * 2)
+
+output- [1, 2, ['hello', 'goodbye'], 1, 2, ['hello', 'goodbye']]
+
+10.ppend method can be use for adding new element in the list only but by using insert we can add as well as can 
+modify already occupied position.
+list = [1,2,3,4,5]
+list.append(6)
+print(list) 
+
+output# [1,2,3,4,5,6]
+
+where as insert
+list = [1,2,3,4,5]
+list.insert(5, 10) 
+
+Output# [1,2,3,4,5,10]
+
+11.
+remove and pop are the teo ways in which we can delete the data in the list
+
+12.
+Strings can be defined as sequential collections of characters. 
+This means that the individual characters that make up a string are in a particular order from left to right
+where as A list is a sequential collection of Python data values,
+where each value is identified by an index. The values that make up a list are called its elements.
+
+Lists are similar to strings, which are ordered collections of characters, 
+except that the elements of a list can have any type and for any one list, the items can be of different types.
+
+Lists are mutable but Strings are immutable
+
+13.
+list
+1.Lists are mutable
+2.Lists consume more memory
+3.list is better for performing operations, such as insertion and deletion.
+4.[]
+
+tuple
+Tuples are immutable
+Tuple data type is appropriate for accessing the elements
+consume less memory
+()
+
+14.t=(42)
+  type(t)
+
+int
+
+15.
+Just by writing typecasting operation we can convert list to tuple and tuple to list
+l=[1,2,3,4,5]
+t= tuple(l)
+t
+(1, 2, 3, 4, 5)
+
+l1=list(t)
+l1
+[1, 2, 3, 4, 5]
+
+
+16. Variables contain references to list values rather than list values themselves. 
+But for strings and integer values, variables simply contain the string or integer value.
+
+17.Deep copy- a copy of object is copied in other object.
+It means that any changes made to a copy of object do not reflect in the original object
+
+shallow copy-a reference of object is copied in other object.
+It means that any changes made to a copy of object do reflect in the original object
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
