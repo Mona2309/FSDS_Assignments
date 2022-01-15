@@ -1,0 +1,35 @@
+1. empty dictionary is defined as d={}
+2.{'foo': 42}
+3. Lists need not be homogeneous always which makes it a most powerful tool in Python.
+A single list may contain DataTypes like Integers, Strings, as well as Objects.
+Lists are mutable, and hence, they can be altered even after their creation.
+
+Dictionary holds key:value pair. Key-value is provided in the dictionary to make it more optimized.
+Each key-value pair in a Dictionary is separated by a colon :,whereas each key is separated by a ‘comma’.
+4.Will get key error
+KeyError: 'foo'
+
+5.'cat' in spam and 'cat' in spam.keys()?
+
+'cat' in spam will serach in the dict for the value where as spam.keys() will only check in the keys if cat is a key in spam dictionary
+
+6.'cat' in spam will serach in the dict for the value where as spam.keys() will only check in the values if cat is a key in spam dictionary
+
+7.spam['color'] ='black'
+
+8.pprint is a Python module that provides the capability to pretty print Python data types to be more readable.
+This module also supports pretty-printing dictionary.
+import pprint
+dct_arr = [
+  {'Name': 'John', 'Age': '23', 'Country': 'USA'},
+  {'Name': 'Jose', 'Age': '44', 'Country': 'Spain'},
+  {'Name': 'Anne', 'Age': '29', 'Country': 'UK'},
+  {'Name': 'Lee', 'Age': '35', 'Country': 'Japan'}
+]
+pprint.pprint(dct_arr)
+
+output
+[{'Age': '23', 'Country': 'USA', 'Name': 'John'},
+ {'Age': '44', 'Country': 'Spain', 'Name': 'Jose'},
+ {'Age': '29', 'Country': 'UK', 'Name': 'Anne'},
+ {'Age': '35', 'Country': 'Japan', 'Name': 'Lee'}]

@@ -1,0 +1,66 @@
+1. the backslash "\" is a special character, also called the "escape" character.
+It is used in representing certain whitespace characters: "\t" is a tab, "\n" is a newline, 
+and "\r" is a carriage return.
+
+2.\n is newline and \t is tab separated
+
+3.If we want to include a backslash character in a string, we will need to escape that.
+example
+print("C:\\Users\\mdhal\\Desktop")
+
+output- C:\Users\mdhal\Desktop
+
+4."Howl's Moving Castle" 
+so here if we use escape character after apostophe and then print the error will be gonr
+
+"Howl\'s Moving Castle"
+
+5. print("Hello", end="")
+   print("world")
+
+6.
+'Hello, world!'[1] --- e
+'Hello, world!'[0:5] ---Hello
+'Hello, world!'[:5]--- Hello
+'Hello, world!'[3:]--- 'lo, world!'
+
+7.
+'Hello'.upper() --HELLO
+'Hello'.upper().isupper()---True
+'Hello'.upper().lower()--hello
+
+8.'Remember, remember, the fifth of July.'.split()
+'-'.join('There can only one.'.split())
+output:-
+'There-can-only-one.'
+
+8.methods for right-justifying, left-justifying, and centering a string
+str.ljust(s, width[, fillchar])
+str.rjust(s, width[, fillchar])
+str.center(s, width[, fillchar])
+
+example:
+cstr = "I love my country"
+print ("The original string is : \n", cstr, "\n") --
+
+output The original string is :
+I love my country                      
+
+print ("The center aligned string is : ")
+print (cstr.center(40), "\n")
+
+output
+The center aligned string is : 
+          I love my country
+
+print ("Center aligned string with fillchr: ")
+print (cstr.center(40, '#'))
+Center aligned string with fillchr: 
+##########I love my country##########
+
+10.trimStart() or trimEnd() method
+
+
+
+
+
