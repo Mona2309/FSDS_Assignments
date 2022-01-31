@@ -1,0 +1,17 @@
+1.You can import the module with import pyinputplus as pyip so that you can enter a shorter name 
+when calling the module's functions. PyInputPlus has functions for entering a variety of input, 
+including strings, numbers, dates, yes/no, True/False, emails, and files.
+
+2.Pypi [Python Package Index] - repo for python scripts
+Pip - Package manager that install/uninstall.
+pip install packagename
+
+3.The inputInt() function returns an integer, while the inputFloat() function returns a float value.
+The inputFloat() function returns an integer, while the inputInt() function returns a float.
+There are no differences between the two but inputInt() function returns an integer, while the inputFloat() 
+function returns a string value.
+
+4.By using pyip.inputint(min=0, max=99)
+
+5.
+
